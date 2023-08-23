@@ -1,0 +1,81 @@
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans:ital@1&family=Kanit:wght@100;400&family=Libre+Baskerville&family=Lumanosimo&family=Oswald&family=REM&family=Roboto+Slab:wght@300;500&family=Source+Code+Pro:wght@300;400&family=Varela+Round&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    background-image:url(moneyy.jpg);
+    background-attachment: fixed;
+    background-position: 100%;
+    background-size: cover;
+    box-sizing: border-box;
+    font-family: sans-serif;
+    font-family: 'Fira Sans', sans-serif;
+font-family: 'Kanit', sans-serif;
+font-family: 'Libre Baskerville', serif;
+font-family: 'Lumanosimo', cursive;
+font-family: 'Oswald', sans-serif;
+font-family: 'REM', sans-serif;
+font-family: 'Roboto Slab', serif;
+font-family: 'Source Code Pro', monospace;
+font-family: 'Varela Round', sans-serif;
+}
+.menu-bar{
+    background: rgb(71, 78, 71);
+    text-align: center;
+}
+.menu-bar ul{
+    display: inline-flex;
+    list-style: none;
+    color: #fff;
+}
+.menu-bar li{
+    width: 120px;
+    margin: 11px;
+    padding: 10px;
+}
+.menu-bar ul li a{
+    text-decoration: none;
+    color: #fff;
+}
+.active, .menu-bar ul li:hover{
+background: #324b9e;
+border-radius: 10px;
+}
+.sub-menu-1{
+    display: none;
+}
+.menu-bar ul li:hover .sub-menu-1{
+display: block;
+position: absolute;
+background-color: rgb(67, 67, 67);
+margin-top:15px ;
+margin-left: 15px;
+}
+.menu-bar ul li:hover .sub-menu-1 ul{
+    display: block;
+    margin: 10px;
+    width: 215px;
+}
+.menu-bar ul li:hover .sub-menu-1 ul li{
+    width: 150px;
+    padding: 15px;
+    border-bottom: 1px dotted #fff;
+    background: transparent;
+    border-radius: 10px;
+    text-align: left;
+}
+.menu-bar ul li:hover .sub-menu-1 ul li a:hover{
+    color: rgb(255, 210, 29);
+}
+.sub-menu-2{
+    display: none;
+}
+.hover-me:hover .sub-menu-2{
+    position: absolute;
+    display: block;
+    margin-top: -40px;
+    margin-left: 140px;
+    background-color: rgb(67,67,67);
+}
